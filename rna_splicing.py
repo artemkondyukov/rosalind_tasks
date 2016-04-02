@@ -1,5 +1,5 @@
 import sys
-from process_fasta import *
+from utils.process_fasta import *
 
 #Obtain first name of sequence -- mRNA sequence
 with open(sys.argv[1], "r") as f:
