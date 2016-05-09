@@ -1,7 +1,9 @@
+import sys
+
 names = []
 seqs = []
 
-with open ("palindromes.in", "r") as fin:
+with open (sys.argv[1], "r") as fin:
 	for string in fin:
 		string = string.replace("\n", "")
 		if string[0] == ">":
